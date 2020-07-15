@@ -29,7 +29,7 @@ def kesha_maker(array)
   i = 0
   array.each do |name|
     work_array=array[i].split("")
-    work_array[3] = "$"
+    work_array[2] = "$"
     i+=1
     new_array << work_array.join
   end
