@@ -33,4 +33,5 @@ def kesha_maker(array)
     i+=1
     new_array << work_array
   end
+  return new_array
 end
