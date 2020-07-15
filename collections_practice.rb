@@ -31,7 +31,7 @@ def kesha_maker(array)
     work_array=array[i].split("")
     work_array[3] = "$"
     i+=1
-    new_array << work_array[i].join
+    new_array << work_array.join
   end
   return new_array
 end
