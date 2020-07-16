@@ -45,3 +45,6 @@ def find_a(array)
   end #do
   return new_array
 end
+
+def sum_array
+end
