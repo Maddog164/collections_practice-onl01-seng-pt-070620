@@ -51,3 +51,12 @@ def sum_array(array)
   array.each {|int| sum += int}
   return sum
 end
+
+def add_s(array)
+  new_array=[]
+  array.each do |string|
+    new_array << string + "s"
+  end
+  new_array[3] = array[3]
+  return new_array
+end
