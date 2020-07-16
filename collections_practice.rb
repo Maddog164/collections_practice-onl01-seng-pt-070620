@@ -57,6 +57,6 @@ def add_s(array)
   array.each do |string|
     new_array << string + "s"
   end
-  new_array[3] = array[3]
+  new_array[1] = array[1]
   return new_array
 end
